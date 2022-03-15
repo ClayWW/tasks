@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import { ChangeType } from "./components/ChangeType";
 import { RevealAnswer } from "./components/RevealAnswer";
@@ -6,6 +6,7 @@ import { StartAttempt } from "./components/StartAttempt";
 import { TwoDice } from "./components/TwoDice";
 import { CycleHoliday } from "./components/CycleHoliday";
 import { Counter } from "./components/Counter";
+import { Button } from "react-bootstrap";
 
 function App(): JSX.Element {
     return (
@@ -14,9 +15,11 @@ function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript
             </header>
             <hr></hr>
-            <Counter></Counter>
+            <p>
+                Counter: <Counter></Counter>
+            </p>
             <hr />
-            <RevealAnswer></RevealAnswer>
+            Reveal Answer<RevealAnswer></RevealAnswer>
             <hr />
             <StartAttempt></StartAttempt>
             <hr />
