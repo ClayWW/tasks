@@ -19,12 +19,10 @@ function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript
             </header>
             <hr></hr>
-<<<<<<< HEAD
             <p>
                 Counter: <Counter></Counter>
             </p>
-=======
-            {/* <DoubleHalf></DoubleHalf> */}
+            <DoubleHalf></DoubleHalf>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
@@ -33,7 +31,6 @@ function App(): JSX.Element {
             <ShoveBox></ShoveBox>
             <hr></hr>
             <Counter></Counter>
->>>>>>> upstream/task-components
             <hr />
             Reveal Answer<RevealAnswer></RevealAnswer>
             <hr />
