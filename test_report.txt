@@ -21,11 +21,12 @@ PASS src/components/Counter.test.tsx
 PASS src/components/RevealAnswer.test.tsx
 PASS src/bad-components/ColoredBox.test.tsx
 PASS src/bad-components/ShoveBox.test.tsx
+PASS src/quizzer/Quizzer.test.tsx
 PASS src/App.test.tsx
 -----------------------------|---------|----------|---------|---------|-------------------
 File                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------------------|---------|----------|---------|---------|-------------------
-All files                    |   96.88 |    91.26 |     100 |   96.78 |                   
+All files                    |   73.28 |    75.65 |   70.37 |   73.61 |                   
  src                         |   95.67 |    90.47 |     100 |    95.5 |                   
   App.tsx                    |     100 |      100 |     100 |     100 |                   
   arrays.ts                  |   89.85 |       80 |     100 |   88.88 | 20-27             
@@ -54,10 +55,24 @@ All files                    |   96.88 |    91.26 |     100 |   96.78 |
  src/interfaces              |       0 |        0 |       0 |       0 |                   
   answer.ts                  |       0 |        0 |       0 |       0 |                   
   question.ts                |       0 |        0 |       0 |       0 |                   
+  quiz.ts                    |       0 |        0 |       0 |       0 |                   
+ src/quizzer                 |   33.33 |        0 |   11.11 |   41.66 |                   
+  Quizzer.tsx                |   33.33 |        0 |   11.11 |   41.66 | 29-43             
+ src/quizzer/components      |    3.37 |        0 |       4 |    3.44 |                   
+  AddQuestion.tsx            |       0 |      100 |       0 |       0 | 14-45             
+  AddQuiz.tsx                |      40 |      100 |   33.33 |      40 | 16-24,42          
+  EditQuestion.tsx           |       0 |        0 |       0 |       0 | 14-157            
+  EditQuiz.tsx               |       0 |        0 |       0 |       0 | 23-109            
+  MCQuestion.tsx             |       0 |        0 |       0 |       0 | 15-44             
+  QuestionList.tsx           |       0 |      100 |       0 |       0 | 15-18             
+  QuizList.tsx               |      50 |      100 |      50 |      50 | 18                
+  SAQuestion.tsx             |       0 |        0 |       0 |       0 | 13-35             
+  ViewQuestions.tsx          |       0 |        0 |       0 |       0 | 16                
+  ViewQuizzes.tsx            |       0 |        0 |       0 |       0 | 17-39             
 -----------------------------|---------|----------|---------|---------|-------------------
 
-Test Suites: 20 passed, 20 total
-Tests:       134 passed, 134 total
+Test Suites: 21 passed, 21 total
+Tests:       135 passed, 135 total
 Snapshots:   0 total
-Time:        11.557 s
+Time:        12.713 s
 Ran all test suites.
