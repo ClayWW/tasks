@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Quiz } from "../interfaces/quiz";
 import { QuizList } from "../quizzer/components/QuizList";
-import quest from "../data/questions.json";
+//import quest from "../data/questions.json";
 import { Button } from "react-bootstrap";
 import { AddQuiz } from "../quizzer/components/AddQuiz";
 
